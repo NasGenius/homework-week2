@@ -4,35 +4,54 @@
 
 <head>
     <meta charset="utf-8">
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
 
-    <title>About Me</title>
-    <link rel="stylesheet" href="css/style.css">
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- styles for this nav fixed header -->
+    <link href="./css/navbar-top-fixed.css" rel="stylesheet">
+  </head>
 
-</head>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#">Fixed navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link portfolio" href="#" tabindex="-1" aria-disabled="true">Portfolio</a>
+        </li>
+      </ul>
+      <form class="form-inline mt-2 mt-md-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
 
-<body>
-    <header class='masthead'>
-        <p class='masthead-intro'>Hi I'm</p>
-        <h1 class='masthead-heading'>Billy Gray</h1>
-    </header>
-    <section class="details">
-      <h1>Introduction</h1>
-      <p>Hi, I am a father of three beautiful girls.</p>
-      <h1>Where I'm From</h1>
-      <p>I grew up in the midwest.</p>
-      <h1>What are your favorite hobbies?</h1>
-      <p>Some of my hobbies includes: basketball, bowling, video games and most importantly, spending time with my daughters.</p>
-      <h1>What's your dream job?</h1>
-      <p>No dream job.</p>
-      <h1>Where do you live?</h1>
-      <p>I live in Ohio and Washington State.</p>
-      <h1>Why do you want to be a web developer?</h1>
-      <p>I wouldn't say I want to be a web developer. I would like to add on to the skills that I currently have to continue to add value in my</p>
-    </section>
 
     <!-- Code for sticky footer -->
     <!-- Code modified from Bootstrap Documentation -->
-    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
     <style>
         .bd-placeholder-img {
           font-size: 1.125rem;
@@ -49,22 +68,16 @@
           }
         }
       </style>
-      <!-- Custom styles for this template -->
+      <!-- Custom styles for sticky footer -->
       <link href="sticky-footer.css" rel="stylesheet">
     </head>
     <body class="d-flex flex-column h-100">
-      <!-- Begin page content -->
-  <main role="main" class="flex-shrink-0">
-    <div class="container">
-      <h1 class="mt-5">Sticky footer</h1>
-      <p class="lead">Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS.</p>
-      <p>Use <a href="../examples/sticky-footer-navbar/">the sticky footer with a fixed navbar</a> if need be, too.</p>
-    </div>
-  </main>
+
+      <!-- Code for sticky footer starts here -->
 
     <footer class="footer mt-auto py-3">
         <div class="container">
-          <span class="text-muted">Place sticky footer content here.</span>
+          <span class="text-muted">Placeholder for sticky footer.</span>
         </div>
     </footer>
 </body>
