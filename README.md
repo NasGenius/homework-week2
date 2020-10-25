@@ -8,6 +8,7 @@ This repository ("homework-week02") is where I have stored my changes to the ass
 
 Usage of this repository is showcasing some of the things you can do with HTML code along with CSS and Bootstrap. Taking some of the lessons learned and applying them to my code. 
 
+Here is the link to my application: https://nasgenius.github.io/homework-week2/
 
 ## Credits
 
