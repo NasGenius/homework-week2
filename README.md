@@ -1,17 +1,26 @@
-# Homework Assignment - 02
+# My Responsive Portfolio
 
 ## This Repository
 
-This repository ("homework-week01") is where I have stored my changes to the assignment. This source code is available to everyone under the standard MIT license.
+This repository ("homework-week02") is where I have stored my changes to the assignment. This source code is available to everyone under the standard MIT license.
 
 ## Usage 
 
-Usage of this repository is showcasing some of the things you can do with HTML code along with CSS. Taking some of the lessons learned and applying them to my code. Also making sure that I met the user story along with the acceptance criteria. 
+Usage of this repository is showcasing some of the things you can do with HTML code along with CSS and Bootstrap. Taking some of the lessons learned and applying them to my code. 
 
 
 ## Credits
 
 Credit for this project goes to my instructor @aaronjewell, my TA's along with my fellow peers from Group - 5 for answering questions. They all assist me with my assignment. By posting helpful links, our class lectures and most importantly all the practice that was given. 
+I modified snippets of code from the following sites:
+
+https://getbootstrap.com/
+https://startbootstrap.com/snippets/portfolio-four-column/
+https://mdbootstrap.com/docs/jquery/sections/contact/
+
+I also used the following site for my HTML Validation:
+
+https://validator.w3.org/nu/#file
 
 ![Sample-Photo](https://github.com/NasGenius/homework-week01/blob/main/css/assets/images/Screen%20Shot%202020-10-16%20at%201.24.38%20AM.png?raw=true)
 
