@@ -20,20 +20,26 @@
         }
       }
     </style>
-    <!-- styles for this nav fixed header -->
-    <link href="./css/navbar-top-fixed.css" rel="stylesheet">
-  </head>
-<!-- Code for fixed nav bar header -->
 
+<!-- styles for this nav fixed header -->
+<link href="./css/navbar-top-fixed.css" rel="stylesheet">
+</head>
+
+<!-- Code for fixed nav bar header -->
+<body>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <a class="navbar-brand" href="index.html"></a>
+    <a class="navbar-brand" href="index.html">Billy Gray</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home/About <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">About</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="contact.html">Contact</a>
@@ -44,35 +50,26 @@
       </ul>
     </div>
   </nav>
-
   <body>
 
     <!-- Site Header -->
-    <header>
-      <!-- h1: The most important headline -->
-      <h1>Student Bio</h1>
-    </header>
-  
-    <div>
-  
-      <!-- Section 1: Bio -->
-      <section>
-        <!-- h2: Tier-2 Headline (Not as important as the h1 header, but more than one allowed). -->
-        <h2>Billy Gray</h2>
-  
-        <!-- Image with link -->
-        <img src="https://placehold.it/200x200" class="img-fluid" alt="Responsive image" alt="Your Name">
-  
-        <!-- Paragraph with embedded link -->
-        <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
-      </section>
-  
-      <!-- Section 2: Contact Info -->
-      <section>
+    <div class="header">
+      <h1>About Me</h1>
+    </div>
+    <!--Section: Bio -->
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      </div>
+      <div class="col-md-5 order-md-3">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+      </div>
     </div>
   
   </body>
-
 
 
 
@@ -135,23 +132,6 @@
     <!-- Code for sticky footer -->
     <!-- Code modified from Bootstrap Documentation -->
     <link href="./css/bootstrap.min.css" rel="stylesheet">
-
-    <style>
-        .bd-placeholder-img {
-          font-size: 1.125rem;
-          text-anchor: middle;
-          -webkit-user-select: none;
-          -moz-user-select: none;
-          -ms-user-select: none;
-          user-select: none;
-        }
-  
-        @media (min-width: 768px) {
-          .bd-placeholder-img-lg {
-            font-size: 3.5rem;
-          }
-        }
-      </style>
 
       <!-- Custom styles for sticky footer -->
       <link href="sticky-footer.css" rel="stylesheet">
