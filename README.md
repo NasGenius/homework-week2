@@ -6,7 +6,7 @@ This repository ("homework-week02") is where I have stored my changes to the ass
 
 ## Usage 
 
-Usage of this repository is showcasing some of the things you can do with HTML code along with CSS and Bootstrap. Taking some of the lessons learned and applying them to my code. 
+Usage of this repository is showcasing some of the things you can do with HTML code along with CSS and Bootstrap. This particular assignment focuses on creating a  responsive design that renders well on a variety of devices and window or screen sizes. 
 
 Here is the link to my application: https://nasgenius.github.io/homework-week2/
 
