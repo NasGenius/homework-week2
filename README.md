@@ -22,7 +22,7 @@ I also used the following site for my HTML Validation:
 
 https://validator.w3.org/nu/#file
 
-![Sample-Photo](https://github.com/NasGenius/homework-week01/blob/main/css/assets/images/Screen%20Shot%202020-10-16%20at%201.24.38%20AM.png?raw=true)
+![Sample-Photo](https://github.com/NasGenius/homework-week2/tree/master/images)
 
 ## License
 
